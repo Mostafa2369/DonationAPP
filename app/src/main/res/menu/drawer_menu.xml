@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/add_charity"
+            android:icon="@drawable/baseline_home_black_18dp"
+            android:title="Add Charity" />
+        <item
+            android:id="@+id/delete_charity"
+            android:icon="@drawable/delete"
+            android:title="Delete Charity" />
+        <item
+            android:id="@+id/update_charity"
+            android:icon="@drawable/update"
+            android:title="Update Charity" />
+        <item
+            android:id="@+id/add_admin"
+            android:icon="@drawable/baseline_add_black_18dp"
+            android:title="Add Admin" />
+
+        <item
+            android:id="@+id/send_email"
+            android:icon="@drawable/sendmail"
+            android:title="Send Email" />
+        <item
+            android:id="@+id/sign_out"
+            android:icon="@drawable/sharp_arrow_back_black_18dp"
+            android:title="Sign Out" />
+    </group>
+
+</menu>

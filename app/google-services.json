@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "35959897499",
+    "firebase_url": "https://donationapp-bf7bc.firebaseio.com",
+    "project_id": "donationapp-bf7bc",
+    "storage_bucket": "donationapp-bf7bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35959897499:android:da461e1c01e5898f",
+        "android_client_info": {
+          "package_name": "com.example.android.donationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35959897499-e526uon0crvo2jupvdt2o6li4m6mmv9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.donationapp",
+            "certificate_hash": "b051981723c5feaecb71de020c5676cde35ed588"
+          }
+        },
+        {
+          "client_id": "35959897499-6a6m9qvnrm6ffd196s304dti7gklcr70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.donationapp",
+            "certificate_hash": "f334765785cd2ff64c380fadf64130693165a27a"
+          }
+        },
+        {
+          "client_id": "35959897499-t6f78p4g2gtu3u8tmb5usopsi9c5vasc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8WAzVlo2pyTFDUWow-pfrbExPgwqYDI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35959897499-t6f78p4g2gtu3u8tmb5usopsi9c5vasc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

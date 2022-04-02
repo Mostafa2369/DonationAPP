@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/view_charities"
+            android:icon="@drawable/baseline_home_black_18dp"
+            android:title="View Charities" />
+        <item
+            android:id="@+id/view_profile"
+            android:icon="@drawable/sharp_person_black_18dp"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/view_cases"
+            android:icon="@drawable/baseline_view_comfy_black_18dp"
+            android:title="View Emergency Cases" />
+        <item
+            android:id="@+id/zakah_measure"
+           android:icon="@drawable/cal"
+            android:title="Zakah Measurement" />
+        <item
+            android:id="@+id/view_report"
+            android:icon="@drawable/report"
+            android:title="My Report" />
+        <item
+            android:id="@+id/sign_out"
+            android:icon="@drawable/sharp_arrow_back_black_18dp"
+            android:title="Sign Out" />
+    </group>
+
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.donationapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.Admin.AddAdminPage"/>
+        <activity android:name=".View.Admin.AdminView"/>
+        <activity android:name=".View.Donor.DonationPage"/>
+        <activity android:name=".View.Donor.ViewProfile"/>
+        <activity android:name=".View.Donor.ViewActivities"/>
+        <activity android:name=".View.Charity.DeleteEmergencyValidation"/>
+        <activity android:name=".View.Donor.DonorView"/>
+        <activity android:name=".View.Donor.CaseDonation"/>
+        <activity android:name=".View.Charity.ViewEmergencyCases"/>
+        <activity android:name=".View.Donor.DonorReport"/>
+        <activity android:name=".View.Donor.ZakahMeasurment"/>
+        <activity android:name=".View.Charity.CharityView"/>
+<activity android:name=".View.Admin.DeleteCharityPage"/>
+        <activity android:name=".View.Admin.UpdateCharityPage"/>
+        <activity android:name=".View.Charity.AddEmergency"/>
+        <activity android:name=".View.Charity.DeleteEmergencyPage"/>
+        <activity android:name=".View.Admin.UpdateCharityFields"/>
+        <activity android:name=".View.Admin.DeleteCharityValidation"/>
+        <activity android:name=".View.Charity.UpdateActivityPage"/>
+        <activity android:name=".View.Donor.ViewCases"/>
+        <activity android:name=".View.Charity.DeleteActivityPage"/>
+        <activity android:name=".View.Charity.DeleteActivityValidation"/>
+        <activity android:name=".View.Charity.UpdateActivityFields"/>
+        <activity android:name=".View.SignUpPage"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
